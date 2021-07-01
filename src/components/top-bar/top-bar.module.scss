@@ -1,0 +1,75 @@
+p {
+    margin: 0;
+}
+
+.userBlock {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #212121;
+    border-left: 1px solid #000;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.userState {
+    display: flex;
+    align-items: center;
+}
+
+.userImage {
+    margin-right: 10px;
+}
+
+.userImage img {
+    border-radius: 50%;
+}
+
+.userName {
+    font-size: 16px;
+    color: #fff;
+}
+
+.userTitle {
+    font-size: 12px;
+    color: #aaa;
+}
+
+.userOptions {
+    display: flex;
+}
+
+.buttonSearch,
+.buttonPoint {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    align-items: center;
+    transition: background-color .2s linear;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba(70, 70, 70, 0.8);
+      }
+    
+      &:active {
+        background-color: #735ad9;
+      }
+}
+
+.buttonSearch {
+    margin-left: 10px;
+}
+
+.imageSearch {
+    margin: 0 auto;
+}

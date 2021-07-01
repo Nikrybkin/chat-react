@@ -1,0 +1,122 @@
+.windowBlock {
+  max-height: 100vh;
+  overflow-y: auto;
+  width: auto;
+  padding-top: 72px;
+  padding-bottom: 74px;
+
+  width: 100%;
+}
+
+.windowChat {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  bottom: 0;
+  min-height: 100%;
+  width: 100%;
+
+  height: 100%;
+  overflow-y: auto;
+  box-sizing: content-box;
+
+  position: relative;
+}
+
+.windowChatLeft {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  bottom: 0;
+  min-height: 100%;
+  width: 100%;
+
+  height: 100%;
+  overflow-y: auto;
+  box-sizing: content-box;
+
+  position: relative;
+}
+
+.messages {
+  color: white;
+  min-height: 90vh;
+  background-color: #0d0d0d;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.inputChat {
+  position: fixed;
+  position: absolute;
+  right: 0;
+
+  bottom: 0;
+  padding: 10px;
+  background-color: #0d0d0d;
+  width: 100%;
+  display: flex;
+  color: #fff;
+  align-items: center;
+}
+
+.inputField {
+  width: 400px;
+  background-color: #212121;
+  padding: 15px 50px 15px 50px;
+  border-radius: 25px;
+  border: 2px solid #212121;
+  color: #fff;
+  transition: border 0.2s linear;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+.inputField::placeholder {
+  color: #aaa;
+}
+
+.inputField:hover {
+  border: 2px solid #ccc;
+}
+
+.inputField:focus {
+  outline: 0;
+  border: 2px solid #735ad9;
+}
+
+.sendBlock {
+  display: flex;
+  position: relative;
+  height: 49px;
+  width: 49px;
+  background-color: #212121;
+  align-items: center;
+  transition: background-color 0.2s linear;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid transparent;
+}
+
+.sendBlock:hover {
+  border: 2px solid #ccc;
+}
+
+.sendBlock:focus {
+  outline: 0;
+  border: 2px solid #735ad9;
+}
+
+.tracking {
+  position: absolute;
+  color: #fff;
+  font-size: 12px;
+
+  padding-bottom: 135px;
+}

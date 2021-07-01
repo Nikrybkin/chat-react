@@ -1,0 +1,69 @@
+.messengerWidth {
+  width: 100%;
+  position: relative;
+  align-items: flex-end;
+}
+
+.sectionMessenger {
+  display: flex;
+  padding: 5px;
+  background-color: #735ad9;
+  margin: 5px 10px 15px;
+  border-radius: 20px;
+
+  height: 100%;
+  align-items: flex-end;
+  margin-left: auto;
+
+  max-width: 300px;
+  width: 100%;
+}
+
+.sectionMessengerLeft {
+  display: flex;
+  padding: 5px;
+  background-color: #1fb4b4;
+  margin: 10px;
+  border-radius: 20px;
+
+  height: 100%;
+  align-items: flex-end;
+
+  width: 300px;
+}
+
+.main {
+  display: flex;
+}
+
+.userContent {
+  margin-left: 10px;
+  margin-right: 10px;
+  word-wrap: break-word;
+  max-width: 400px;
+}
+
+.userAvatar {
+  border-radius: 50%;
+  height: 54px;
+  width: 54px;
+}
+
+.userNick {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.userText {
+  color: #fff;
+  word-break: break-word;
+  width: 150px;
+}
+
+.time {
+  padding-right: 10px;
+  display: flex;
+  align-items: flex-end;
+  color: #aaa;
+  font-size: 14px;
+}

@@ -1,0 +1,105 @@
+.chatFilter {
+  display: flex;
+  position: relative;
+  align-items: center;
+  position: fixed;
+  padding: 10px;
+  width: 300px;
+  justify-content: space-between;
+  top: 0;
+  background-color: #212121;
+}
+
+.imageSearch {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 15px;
+}
+
+.burgerBackground {
+  cursor: pointer;
+  display: flex;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  align-items: center;
+  transition: background-color .2s linear;
+
+  &:hover {
+    background-color: rgba(70, 70, 70, 0.8);
+  }
+
+  &:active {
+    background-color: #735ad9;
+  }
+}
+
+.burger {
+  display: block;
+  width: 20px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #aaa;
+  position: relative;
+  margin: 0 auto;
+}
+
+.burger:before,
+.burger:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #aaa;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+
+.burger:before {
+  top: -5px;
+}
+
+.burger:after {
+  bottom: -5px;
+}
+
+.inputFilter {
+  position: relative;
+}
+
+.buttonFilter {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.inputFilterSearch {
+  width: 220px;
+  background-color: #131313;
+  border: 2px solid #242323;
+  border-radius: 25px;
+  padding: 15px 15px 15px 40px;
+  transition: border 0.2s linear;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.inputFilterSearch::placeholder {
+  color: #aaa;
+}
+
+.inputFilterSearch:hover {
+  border: 2px solid #ccc
+}
+
+.inputFilterSearch:focus {
+  outline: 0;
+  border: 2px solid #735ad9;
+}
+

@@ -1,0 +1,78 @@
+.chatList {
+  padding: 0 10px;
+  margin-top: 69px;
+  overflow-y: auto;
+  height: 85vh;
+
+  background-color: #212121;
+}
+
+button:active, button:focus {
+  outline: none !important;
+  }
+
+.chatBlock button {
+  display: flex;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  align-items: center;
+  cursor: pointer;
+}
+
+.chatBlock {
+  display: flex;
+  width: 100%;
+  height: 75px;
+  
+  padding: 0 5px;
+  align-items: center;
+  border-radius: 15px;
+
+}
+
+.chatBlock:hover {
+  background-color: #303030;
+}
+
+.chatBlock:focus,
+.chatBlock:active {
+  background-color: #735ad9;
+}
+
+.chatBlock:active .dialogSubtitle {
+  color: #fff;
+}
+
+.chatImage {
+  width: 25%;
+}
+
+.userCaption {
+  width: 75%;
+}
+
+.dialogTitle {
+  font-size: 16px;
+  color: #fff;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.dialogSubtitle {
+  height: 23px;
+  width: 100%;
+  overflow: hidden;
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 300;
+  color: #aaa;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.avatarList {
+  border-radius: 50%;
+}
